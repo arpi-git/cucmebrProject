@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="9.898" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="testing orangHRM functionality" name="navigation to solution-people managment-HR admin" time="9.762">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at StepDefinitions.FinalTest.clickButton(FinalTest.java:33)
+	at ✽.I move mouse on "Solutions"(file:///A:/Learnings/Arpi/Eclipse-workspace/Cucumber/src/test/resources/Features/Final.feature:6)
+]]>
+</failure>
+<system-out><![CDATA[
+Given I open Url "https://www.orangeHRM.com"................................passed
+When I move mouse on "Solutions"............................................failed
+When I move mouse on "People Management"....................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
